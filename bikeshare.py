@@ -78,6 +78,7 @@ def load_data(city, month, day):
 
 def summary(df):
     """Displays statistics on the summary data."""
+    ##Asking user's preference for raw data and show raw data upon user's request 
     while True:
         summary_request = input('\nDo you want to see the raw data? Enter yes or no\n')
         if summary_request == 'no':
